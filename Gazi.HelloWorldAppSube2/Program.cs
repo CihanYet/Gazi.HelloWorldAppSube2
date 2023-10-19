@@ -35,6 +35,7 @@
 
             Console.WriteLine("İsminizi Giriniz:");
             string isim = Console.ReadLine();
+            Console.WriteLine("Soyadınızı Giriniz:");
             Console.ReadKey();
         }
     }
