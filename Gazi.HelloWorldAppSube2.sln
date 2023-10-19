@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gazi.HelloWorldAppSube2", "Gazi.HelloWorldAppSube2\Gazi.HelloWorldAppSube2.csproj", "{70ADB3CE-8C6A-43D1-AF8D-29379A3D238A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70ADB3CE-8C6A-43D1-AF8D-29379A3D238A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70ADB3CE-8C6A-43D1-AF8D-29379A3D238A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70ADB3CE-8C6A-43D1-AF8D-29379A3D238A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70ADB3CE-8C6A-43D1-AF8D-29379A3D238A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B786E11-FBFD-4B97-A092-DBAE15C390B6}
+	EndGlobalSection
+EndGlobal
