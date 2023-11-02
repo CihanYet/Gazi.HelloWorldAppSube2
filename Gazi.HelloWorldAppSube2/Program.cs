@@ -54,7 +54,7 @@
             //{
             //    int sayi = 257;
             //    byte number = (byte)sayi;//Explicit Type Casting
-            //    Console.WriteLine(number); 
+            //    Console.WriteLine(number);
             //}
 
             //RİSK!
@@ -63,11 +63,11 @@
 
             //String->Değer tipine
             //string sayi = "20";
-            ////byte number = Convert.ToByte(sayi);
+            //byte number = Convert.ToByte(sayi);
             //int number = int.Parse(sayi);
 
             //double maas = 5000;
-            //maas += 1000;
+            //maas += 1000;           
             //Console.WriteLine(maas);
 
             //Console.WriteLine("Bir sayı giriniz:");
@@ -78,10 +78,12 @@
             //string sonuc = sayi1 > sayi2 ? "Birinci sayı büyüktür" : "İkinci sayı büyüktür yada sayılar eşittir";
             //Console.WriteLine(sonuc);
 
-            int sayi = 5;
-            int number = ++sayi;
-            Console.WriteLine(number);
+            //int sayi = 5;
+            //int number = sayi++;
 
+            //int sayi = 5;
+            //int number = ++sayi;
+            //Console.WriteLine(number);
         }
     }
 }
