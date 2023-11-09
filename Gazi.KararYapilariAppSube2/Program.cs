@@ -4,37 +4,107 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1.Sayıyı giriniz:");
-            double sayi1 = double.Parse(Console.ReadLine());
-            Console.WriteLine("2.Sayıyı giriniz");
-            double s2 = double.Parse(Console.ReadLine());
-            Console.WriteLine("İşlem seçiniz:+,*,/,-");
-            char islem = char.Parse(Console.ReadLine());
-            string msg = "İşlemin sonucu:";
-            if (islem == '+')
+
+            //Console.WriteLine("Select EN for English:");
+            //string cevap = Console.ReadLine().ToUpper();
+
+            //string msg1 = "1.sayıyı giriniz:", msg2 = "2.sayıyı giriniz:", msg3 = "İşlem seçiniz:", msg4 = "İşlemin sonucu:", msg5 = "Hatalı giriş yaptınız";
+
+            //if (cevap == "EN")
+            //{
+            //    msg1 = "Enter first number:";
+            //    msg2 = "Enter second number:";
+            //    msg3 = "Select Operation:";
+            //    msg4 = "Result:";
+            //    msg5 = "Incorrect Operation Selected!";
+            //}
+
+            //Console.WriteLine(msg1);
+            //double sayi1 = double.Parse(Console.ReadLine());
+            //Console.WriteLine(msg2);
+            //double s2 = double.Parse(Console.ReadLine());
+            //Console.WriteLine(msg3);
+            //char islem = char.Parse(Console.ReadLine());
+            //if (islem == '+')
+            //{
+            //    Console.WriteLine($"{msg4}{sayi1 + s2}");
+            //}
+            //else if (islem == '-')
+            //{
+            //    Console.WriteLine($"{msg4}{sayi1 - s2}");
+            //}
+            //else if (islem == '*')
+            //{
+            //    Console.WriteLine($"{msg4}{sayi1 * s2}");
+            //}
+            //else if (islem == '/')
+            //{
+            //    Console.WriteLine($"{msg4}{sayi1 / s2}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(msg5);
+            //}
+
+
+            try
             {
-                Console.WriteLine($"{msg}{sayi1 + s2}");
+                Console.WriteLine("Hava nasıl?");
+                string durum = Console.ReadLine().ToLower();
+                if (durum == "güzel")
+                {
+                    Console.WriteLine("Kaç derece");
+                    sbyte derece = sbyte.Parse(Console.ReadLine());
+                    if (derece < 15)
+                    {
+                        Console.WriteLine("Hava soğuk evde otur");
+                    }
+                    else if (derece >= 15 && derece < 35)
+                    {
+                        Console.WriteLine("Hava güzel dışarı çıkabilirsin");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Hava çok sıcak evde oturmalısın");
+                    }
+                }
+                else if (durum == "kötü")
+                {
+                    Console.WriteLine("Evde otur");
+                }
+                else
+                {
+                    Console.WriteLine("Hatalı giriş yaptınız!");
+                }
             }
-            else if (islem == '-')
+            catch (Exception)
             {
-                Console.WriteLine($"{msg}{sayi1 - s2}");
+                throw;
             }
-            else if (islem == '*')
-            {
-                Console.WriteLine($"{msg}{sayi1 * s2}");
-            }
-            else if (islem == '/')
-            {
-                Console.WriteLine($"{msg}{sayi1 / s2}");
-            }
-            else
-            {
-                Console.WriteLine("Hatalı giriş yaptınız.");
-            }
+            //try
+            //{
+            //    Console.WriteLine("Bir sayı giriniz:");
+            //    byte sayi = byte.Parse(Console.ReadLine());
+            //}          
+            //catch (FormatException)
+            //{
+            //    Console.WriteLine("Sayı ile giriş yapınız.");
+            //}
+            //catch (OverflowException)
+            //{
+            //    Console.WriteLine("0-255 arası değer giriniz");
+            //}
+            //catch (Exception ex)
+            //{                
+            //    Console.WriteLine("Bir hata oluştu!");
+            //    Console.WriteLine($"Hata Detayları:\nTarih Saat:{DateTime.Now}\nHata Mesajı:{ex.Message}\nStack Trace:{ex.StackTrace}");
+            //}
+
+
         }
     }
 }
-
+//Exception Handling
 
 //Dil Seçiniz/Choose Language:TR
 //1. sayıyı giriniz:10
