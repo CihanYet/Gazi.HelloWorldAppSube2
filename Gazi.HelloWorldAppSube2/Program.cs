@@ -7,7 +7,7 @@
         {
             #region Değişken Tanımlamaları
             //Değer tipi (Value Type) - STACK bölgesi
-            //int sayi = 50;
+            //int sayi;
             //byte number = 50;
             ////Referans tipi (Reference type) - HEAP bölgesi
             //string isim = "Ahmet";
@@ -18,13 +18,13 @@
             //a = 30;
             //Console.WriteLine(a);
             //const int number = 50;
-            //Console.WriteLine(number);
-            //number = 100;
+            // Console.WriteLine(number);
+            //int number = 100;
             //Console.WriteLine(number);
             //byte yas=25;
             //Console.WriteLine(yas); 
 
-            // var sayi = 50;
+            //var sayi = '5';
 
 
             #endregion
@@ -36,6 +36,21 @@
             //Console.WriteLine("Merhaba {0} {1}", isim, soyad);
             //Console.WriteLine($"Merhaba {isim} {soyad}");
             #endregion
+
+
+            //try
+            //{
+            //    checked
+            //    {
+            //        var rnd = new Random();
+            //        byte sayi = (byte)rnd.Next(255, 300);
+            //        Console.WriteLine(sayi);
+            //    }
+            //}
+            //catch (Exception)
+            //{
+            //    Console.WriteLine("255'den büyük değer geldi");
+            //}
 
             //Console.WriteLine("İsminizi Giriniz:");
             //string isim = Console.ReadLine();

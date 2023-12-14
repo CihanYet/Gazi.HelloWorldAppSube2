@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gazi.HelloWorldAppSube2", "Gazi.HelloWorldAppSube2\Gazi.HelloWorldAppSube2.csproj", "{70ADB3CE-8C6A-43D1-AF8D-29379A3D238A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gazi.KararYapilariAppSube2", "Gazi.KararYapilariAppSube2\Gazi.KararYapilariAppSube2.csproj", "{830995A6-1CD5-48B6-8362-E7B18D3ECBB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gazi.KararYapilariAppSube2", "Gazi.KararYapilariAppSube2\Gazi.KararYapilariAppSube2.csproj", "{830995A6-1CD5-48B6-8362-E7B18D3ECBB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gazi.DongulerAppSube2", "Gazi.DongulerAppSube2\Gazi.DongulerAppSube2.csproj", "{06EFD6CD-6807-4BE2-A3FE-23DEA0F5E7B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{830995A6-1CD5-48B6-8362-E7B18D3ECBB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{830995A6-1CD5-48B6-8362-E7B18D3ECBB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{830995A6-1CD5-48B6-8362-E7B18D3ECBB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06EFD6CD-6807-4BE2-A3FE-23DEA0F5E7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EFD6CD-6807-4BE2-A3FE-23DEA0F5E7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EFD6CD-6807-4BE2-A3FE-23DEA0F5E7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06EFD6CD-6807-4BE2-A3FE-23DEA0F5E7B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
