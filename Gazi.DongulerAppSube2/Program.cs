@@ -267,23 +267,169 @@ namespace Gazi.DongulerAppSube2
             //7-Is Prime
             //8-Is not prime
 
-            Console.WriteLine("Enter starting number:");
-            int start = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter end number:");
-            int end = int.Parse(Console.ReadLine());
-            for (int i = start; i < end; i++)
+
+            //Console.WriteLine("Enter starting number:");
+            //int start = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter end number:");
+            //int end = int.Parse(Console.ReadLine());
+            //for (int i = start; i < end; i++)
+            //{
+            //    int count = 0;
+            //    for (int j = 2; j <= (i / 2); j++)
+            //    {
+            //        if (i % j == 0)
+            //        {
+            //            count++;
+            //            break;
+            //        }
+            //    }
+            //    Console.WriteLine(count == 0 ? $"{i}-Is Prime" : $"{i}-Is Not Prime");
+            //}
+
+            //int count = 0;
+            //while (count < 5)
+            //{
+            //    Console.WriteLine("Gazi");
+            //    count++;
+            //}
+
+            //int i = 0;
+            //for (; i < 5; )
+            //{
+            //    Console.WriteLine("Gazi");
+            //    i++;
+            //}
+
+            //int max = int.MinValue;
+            //double toplam = 0;
+            //double sayac = 0;
+            //while (true)
+            //{
+            //    Console.Write("Bir sayı giriniz:");
+            //    int sayi = int.Parse(Console.ReadLine());
+            //    sayac++;
+            //    toplam += sayi;
+            //    if (sayi > max)
+            //    {
+            //        max = sayi;
+            //    }
+            //    Console.WriteLine("Devam etmek istiyor musunuz?");
+            //    string cvp = Console.ReadLine();
+            //    if (cvp == "h")
+            //    {
+            //        break;
+            //    }
+            //    else if (cvp == "e")
+            //    {
+            //        continue;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Hatalı giriş yaptınız!");
+            //    }
+            //}
+            //Console.WriteLine($"Girilen en büyük sayı:{max}\nSayıların Toplamı:{toplam}\nSAyıların aritmetik ortalaması:{toplam / sayac}");
+
+            //do
+            //{
+            //    Console.WriteLine("Gazi");
+            //} while (true);
+
+            //int max = int.MinValue;
+            //double toplam = 0;
+            //double sayac = 0;
+            //string cvp;
+            //do
+            //{
+            //    Console.Write("Bir sayı giriniz:");
+            //    int sayi = int.Parse(Console.ReadLine());
+            //    sayac++;
+            //    toplam += sayi;
+            //    if (sayi > max)
+            //    {
+            //        max = sayi;
+            //    }
+            //    Console.WriteLine("Devam etmek istiyor musunuz?");
+            //    cvp = Console.ReadLine();               
+            //} while (cvp!="H");
+
+            //Console.WriteLine($"Girilen en büyük sayı:{max}\nSayıların Toplamı:{toplam}\nSAyıların aritmetik ortalaması:{toplam / sayac}");
+
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    for (int j = 0; j < 10; j++)
+            //    {
+            //        Random rnd = new Random();
+            //        int number = rnd.Next(33, 127);
+            //        Console.Write((char)number);
+            //    }
+            //   Console.WriteLine();
+            //}
+
+            Random rnd = new Random();
+            int number=rnd.Next(10);
+            int unumber;
+            while (true)
             {
-                int count = 0;
-                for (int j = 2; j <= (i / 2); j++)
+                Console.WriteLine("Guess the number:");
+                unumber=int.Parse(Console.ReadLine());
+                if (unumber==number)
                 {
-                    if (i % j == 0)
-                    {
-                        count++;
-                        break;
-                    }
+                    Console.WriteLine("You won!");
+                    break;
                 }
-                Console.WriteLine(count == 0 ? $"{i}-Is Prime" : $"{i}-Is Not Prime");
+                else
+                {
+                    Console.WriteLine("Try again!");
+                }
             }
+
+            
+            do
+            {
+                Console.WriteLine("Guess the number:");
+                unumber = int.Parse(Console.ReadLine());               
+            } while (number!=unumber);
+
+            Console.WriteLine("You won!");
+
+
+            for (; ; )
+            {
+                Console.WriteLine("Guess the number:");
+                unumber = int.Parse(Console.ReadLine());
+                if (unumber == number)
+                {
+                    Console.WriteLine("You won!");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Try again!");
+                }
+            }
+
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine("Guess the number:");
+                unumber = int.Parse(Console.ReadLine());
+                if (unumber == number)
+                {
+                    Console.WriteLine("You won!");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Try again!");
+                }
+            }
+
+
+
         }
     }
 }
+//Ascii
+
+//Seviye
+//Puan 
